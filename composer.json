@@ -1,5 +1,5 @@
 {
-    "name":"henrylamorski/isotope-bundleproduct",
+    "name":"henrylamorski/isotope-productbundle",
     "description":"Bundleproduct-Type for Isotope eCommerce, an eCommerce extension for Contao Open Source CMS",
     "keywords":["isotope","bundleproduct","producttype"],
     "type":"contao-module",
@@ -14,14 +14,14 @@
     "autoload": {
         "psr-0": {
             "Isotope\\": [
-                "system/modules/isotope-bundleproduct/src/Isotope"
+                "system/modules/isotope-productbundle/src/Isotope"
             ]
         }
     },
     "extra": {
         "contao": {
             "sources": {
-                "contao": "system/modules/isotope-bundleproduct"
+                "contao": "system/modules/isotope-productbundle"
             }
         }
     }
