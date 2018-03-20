@@ -17,5 +17,11 @@
                 "system/modules/isotope-bundleproduct/"
             ]
         }
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "contao": "system/modules/isotope-bundleproduct"
+            }
+        }
     }
-}
