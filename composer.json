@@ -1,0 +1,21 @@
+{
+    "name":"henrylamorski/isotope-bundleproduct",
+    "description":"Bundleproduct-Type for Isotope eCommerce, an eCommerce extension for Contao Open Source CMS",
+    "keywords":["isotope","bundleproduct","producttype"],
+    "type":"contao-module",
+    "license":"LGPL-3.0+",
+    "authors":[
+    {
+        "name":"Henry Lamorski",
+        "email":"henry.lamorski@mailbox.org",
+        "role":"Developer"
+    }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Isotope\\": [
+                "system/modules/isotope-bundleproduct/"
+            ]
+        }
+    }
+}
